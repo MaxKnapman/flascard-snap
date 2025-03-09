@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+        
+    </head>
+    <body>
+        <a href="{{ url_for ('index') }}">index</a>
+        {% for card in cards %} <!-- work in progress - add carousel style repeater for cards instead of displaying all -->
+        <div class="flashcard" front="{{ card.front }}" back="{{ card.back }}">{{ card.front }}</div>
+        {% endfor %}
+    </body>
+    <script src="/static/practiceScripts.js" defer></script>
+</html>

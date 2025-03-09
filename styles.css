@@ -1,0 +1,28 @@
+.flashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: lightblue;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px;
+}
+
+.questions, .answers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 48%;
+  }
+
+.matched {
+    background-color: green;
+}
