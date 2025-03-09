@@ -11,3 +11,5 @@ I'm using this as a means to learn Javascript and may in future decide to
 switch over to using Node.js and React.
 
 Currently, the project is a work in progress (especially the practice page)
+
+NOTE: file structure on github is wrong, js and css files go in static folder, csv goes in decks folder, html goes in templates folder, python file goes in root folder
